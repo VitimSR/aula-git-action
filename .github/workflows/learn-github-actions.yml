@@ -1,4 +1,4 @@
-name: Projeto novo
+name: "Projeto novo"
 on: [push]
 jobs: 
   Explore-Github-Actions:
