@@ -1,0 +1,7 @@
+name: Projeto novo
+on: [push]
+jobs: 
+  Explore-Github-Actions:
+  runs-on: unbuntu-latest
+  steps:
+   - run: echo "New primeiro teste"
