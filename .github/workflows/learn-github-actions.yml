@@ -2,6 +2,6 @@ name: "Projeto novo"
 on: [push]
 jobs: 
   Explore-Github-Actions:
-  runs-on: ubuntu-latest
-  steps:
-   - run: echo "New primeiro teste"
+    runs-on: ubuntu-latest 
+    steps:
+    - run: echo "New primeiro teste"
