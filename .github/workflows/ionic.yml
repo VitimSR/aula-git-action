@@ -1,0 +1,12 @@
+name: Git Action Ionic
+on: push
+jobs:
+  check-ionic-version:
+    runs-on: unbuntu-latest
+    steps:
+    - uses: action/checkout@v3
+    - uses: action/setup-node@v3
+      with:
+       node-version: '16'
+    - run: npm install -g @ionic/cli
+    - run: ng --version
